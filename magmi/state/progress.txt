@@ -1,0 +1,23 @@
+title:MAGMI by dweeves - version:0.7.18
+startup:Running Magmi Product Import Engine v1.7.1 by dweeves
+startup:Import Profile:default
+startup:Import Mode:xcreate
+step:step:0.5%
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3-Dweeves- 
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.3-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=On_the_fly_category_creator/importer 
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.0.5-Dweeves- 
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - Importing CSV : D:\XAMPP_WORK\artmaterial\var\import/test.csv using separator [ , ] enclosing [ " ]
+startup:Performing Datasouce Lookup...
+lookup:1:0.0016460418701172
+startup:Found 1 records, took 0.0016460418701172 sec
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - No BOM detected, assuming File is UTF8 without BOM...
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - 34 CSV headers columns found
+columns:34
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.0.5 - Newly created items will have default values for columns:store,page_layout
+startup:Ajusted processed columns:37
+itime:1 - 0.00014209747314453 - 0.00014209747314453
+dbtime:0 - 0 - 0 - 0
+itime:1 - 0.45752000808716 - 0.45262694358826
+dbtime:44 - 0.20017457008362 - 0.20017457008362 - 44
+info:Skus imported OK:1/1
+end:Import Ended
